@@ -1,0 +1,188 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  #title {
+    /* background-color: #ff4c68; */
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url("images/bg.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    color: #fff;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .title-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 1;
+  }
+  
+  .title-image {
+    width: 20%;
+    border-style: solid;
+    border-radius: 100%;
+    position: absolute;
+    right: 20%;
+  }
+
+  .container{
+    padding: 1%;
+  }
+  
+  span{
+    font-size: 1rem;
+  }
+
+  @media (max-width: 991px) {
+    .title-image {
+      position: static;
+      transform: rotate(0);
+      width: 60%;
+    }
+    #title {
+      text-align: center;
+      height: 830px;
+    }
+    #about{
+      text-align: center;
+    }
+  }
+  
+  .container-fluid {
+    padding: 3% 8% 7%;
+  }
+  
+  .download {
+    margin: 5% 2% 5% 0;
+  }
+  
+  .navbar-brand {
+    font-family: 'Courgette', cursive;
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+  }
+  
+  h3 {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+  }
+  h4 {
+    background-color: #ADADAD;
+    padding: 2%;
+    font-size: 1.3rem;
+    border-radius: 40%;
+
+  }
+  p {
+    color: #8f8f8f;
+    font-size: 1.3rem;
+  }
+  
+  .feature-img {
+    color: #1E90FF;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-img:hover {
+    color: #00008B;
+  }
+  #about {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .featur-box {
+    text-align: center;
+    padding: 1%;
+  }
+  
+  #catalogue {
+    background-color: #212020;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .catalogue-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .logo-comp {
+    width: 15%;
+    padding: 5px 10px;
+  }
+  
+  .carousel-item {
+    padding: 5% 15%;
+  }
+
+  .progress-bar:hover{
+    background-color: rgb(75, 75, 255);
+  }
+  
+  #projects {
+    background-color: #212020;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 2%;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .apt {
+    padding: 3% 2%;
+  }
+  
+  #skills {
+    padding: 100px;
+  }
+  
+  #cta {
+    padding: 7% 15% 4%;
+    color: #fff;
+    background-color: #212020;
+    text-align: center;
+  }
+  
+  .cta-font {
+    font-size: 2.5rem;
+  }
+
+  #footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.05);;
+    padding: 1% 15%;
+    line-height: 1;
+  }
+  .foot {
+    padding: 20px 10px;
+  }
